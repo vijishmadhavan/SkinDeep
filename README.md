@@ -34,8 +34,7 @@ Photoshop was also used to create few realestic looking images.
 
 
 
-![Imgur](https://i.imgur.com/OMGOzaN.jpg)
-
+![Imgur](https://i.imgur.com/ALw5of3.png)
 
 
 
