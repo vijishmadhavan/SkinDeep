@@ -8,6 +8,10 @@ I would suggest everyone to have a look at the book, u can get it from Amazon: h
 
 ![Imgur](https://i.imgur.com/XEuK39Y.jpg)
 
+# Examples
+
+![Imgur](https://i.imgur.com/OMGOzaN.jpg)
+
 
 # Synthetic data generation
 
@@ -30,7 +34,6 @@ Photoshop was also used to create few realestic looking images.
 
 
 
-![Imgur](https://i.imgur.com/OMGOzaN.jpg)
 
 
 
