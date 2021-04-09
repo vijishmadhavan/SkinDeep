@@ -28,7 +28,7 @@ Apdrawing dataset has line art pairs which will mimic tattoo lines, this will he
 
 Apdrawing dataset only has portrait head shots, For full body images I ran my previous ArtLine project and overlayed the output with the input image.
 
-ImageDraw.Draw was also used with forest green colour codes and placed randomly on zommed-in body images. 
+ImageDraw.Draw was used with forest green colour codes and placed randomly on zommed-in body images. 
 
 Photoshop was also used to create few realestic looking images.
 
