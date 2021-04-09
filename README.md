@@ -8,8 +8,7 @@ I would suggest everyone to have a look at the book, u can get it from Amazon: h
 
 ### Allen Iverson's(American basketball player) tattoo removed using the model. 
 
-![Imgur](https://i.imgur.com/XEuK39Y.jpg)
-
+![Imgur](https://i.imgur.com/XkdmPMQ.jpg)
 
 # Synthetic data generation
 
