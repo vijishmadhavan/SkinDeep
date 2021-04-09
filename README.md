@@ -8,7 +8,8 @@ I would suggest everyone to have a look at the book, u can get it from Amazon: h
 
 # Synthetic data generation
 
-Overlaying Apdrawing dataset along with some background removed tattoos designs placed randomly. This can be easily done using Python Opencv.
+Overlaying Apdrawing dataset along with some background removed tattoos designs placed randomly. This can be easily done using Python Opencv. 
+Apdrawing dataset has line art pairs which will mimic tattoos, this will help the model to learn and remove those lines.
 
 
 ![Imgur](https://i.imgur.com/RYSBhcg.jpg)
