@@ -16,6 +16,9 @@ Apdrawing dataset has line art pairs which will mimic tattoos lines, this will h
 ![Imgur](https://i.imgur.com/RYSBhcg.jpg)
 
 
+![Imgur](https://i.imgur.com/sm66zlt.jpg)
+
+
 Photoshop was also used to create few realestic looking images.
 
 
