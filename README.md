@@ -6,9 +6,11 @@ I planned this project after getting inspired by the book "Skin Deep: Looking Be
 
 I would suggest everyone to have a look at the book, u can get it from Amazon: https://www.amazon.com/Skin-Deep-Looking-Beyond-Tattoos/dp/157687849X. 
 
-![Imgur](https://i.imgur.com/XEuK39Y.jpg)
 
 # Examples
+
+![Imgur](https://i.imgur.com/XEuK39Y.jpg)
+
 
 ![Imgur](https://i.imgur.com/OMGOzaN.jpg)
 
