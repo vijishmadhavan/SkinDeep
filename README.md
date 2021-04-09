@@ -7,14 +7,6 @@ I planned this project after getting inspired by the book "Skin Deep: Looking Be
 I would suggest everyone to have a look at the book, u can get it from Amazon: https://www.amazon.com/Skin-Deep-Looking-Beyond-Tattoos/dp/157687849X. 
 
 
-# Examples
-
-![Imgur](https://i.imgur.com/XEuK39Y.jpg)
-
-
-![Imgur](https://i.imgur.com/OMGOzaN.jpg)
-
-
 # Synthetic data generation
 
 Overlaying Apdrawing dataset along with some background removed tattoos designs, This can be easily done using Python Opencv. 
@@ -31,8 +23,15 @@ Apdrawing dataset has line art pairs which will mimic tattoos lines, this will h
 Photoshop was also used to create few realestic looking images.
 
 
-
 ![Imgur](https://i.imgur.com/lQP9lfY.jpg)
+
+
+# Examples
+
+![Imgur](https://i.imgur.com/XEuK39Y.jpg)
+
+
+![Imgur](https://i.imgur.com/OMGOzaN.jpg)
 
 
 
