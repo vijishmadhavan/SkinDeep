@@ -32,8 +32,8 @@ ImageDraw.Draw was used with forest green colour codes and placed randomly on zo
 
 Photoshop was also used to create few realestic looking images.
 
-
 ![Imgur](https://i.imgur.com/EcpIIGT.jpg)
+
 
 # Example Outputs
 
