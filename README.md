@@ -15,7 +15,7 @@ To do such a project we need lot of image pairs dataset, I couldnt find any such
 
 # Synthetic data generation
 
-Overlaying Apdrawing dataset along with some background removed tattoo designs, This can be easily done using Python Opencv. 
+Overlaying Apdrawing dataset image pairs along with some background removed tattoo designs, This can be easily done using Python Opencv. 
 
 Apdrawing dataset has line art pairs which will mimic tattoo lines, this will help the model to learn and remove those lines.
 
