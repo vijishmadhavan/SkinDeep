@@ -1,6 +1,6 @@
 ![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=SkinDeep&fontAlign=80&fontAlignY=40&color=gradient)
 
-# [SkinDeep](https://github.com/vijishmadhavan/SkinDeep) &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Remove%20Tattoos&url=https://github.com/vijishmadhavan/SkinDeep&via=Vijish68859437&hashtags=machinelearning,developers,100DaysOfCode,Deeplearning) &nbsp;
+# [SkinDeep](https://github.com/vijishmadhavan/SkinDeep) &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Skin%20Deep&url=https://github.com/vijishmadhavan/SkinDeep&via=Vijish68859437&hashtags=machinelearning,developers,100DaysOfCode,Deeplearning) &nbsp;
 
 __Contact__: vijishmadhavan@gmail.com
 
