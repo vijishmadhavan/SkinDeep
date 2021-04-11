@@ -100,6 +100,10 @@ I would request you to have a loot at limitations given below.
 - Coloured tattoos won't work, the dataset had none.
 - I am a crappy coder. 
 
+## Going Forward
+
+The model still struggles and needs lot of improvement, If intrested please contribute lets improve it.
+
 ## Acknowledgments
 
 - Thanks to fast.ai and pyimagesearch.com. 
