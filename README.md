@@ -15,8 +15,8 @@ Photoshop can produce extremely good results but it needs expertise and hours of
 ![Imgur](https://i.imgur.com/mEuf6CX.gif)
 
 
-- [Example Outputs](#Example-Outputs) (&#x1F537;)
-- [Getting Started Yourself](#Getting-Started-Yourself) (&#x1F537;)
+- [Example Outputs](#Example-Outputs) &#x1F537;
+- [Getting Started Yourself](#Getting-Started-Yourself) &#x1F537;
 
 
 # Synthetic data generation
