@@ -1,7 +1,6 @@
 # SkinDeep
-<div class="bg-yellow-light mb-2">
-  .text-gray-dark on .bg-yellow-light
-</div>
+<div class="text-white bg-blue mb-2">
+  .text-white on .bg-blue
 
 __Contact__: vijishmadhavan@gmail.com
 
