@@ -1,6 +1,10 @@
 # SkinDeep
-#fff5b1, $bg-yellow-light
 
+<div class="bg-gray-dark text-white p-3 mb-2">
+  <span class="border border-white-fade p-2">
+    .border-white-fade .bg-gray-dark
+  </span>
+</div>
 __Contact__: vijishmadhavan@gmail.com
 
 I planned this project after getting inspired by the book "Skin Deep: Looking Beyond the Tattoos" by Steven Burton. The Book uniquely highlights the impact tattoos have on the way a person is perceived by showing what each participant(former gang members) might look like without them. It took Steven about 400 hours in retouching the photos and removing the tattoos. Can deep learning do a decent job or can it even match his work? This was the starting point of this project!!
