@@ -15,22 +15,20 @@ To do such a project we need lot of image pairs dataset, I couldnt find any such
 
 # Synthetic data generation
 
-Overlaying Apdrawing dataset image pairs along with some background removed tattoo designs, This can be easily done using Python Opencv. 
+(1) Overlaying Apdrawing dataset image pairs along with some background removed tattoo designs, This can be easily done using Python Opencv. 
 
-Apdrawing dataset has line art pairs which will mimic tattoo lines, this will help the model to learn and remove those lines.
+(2) Apdrawing dataset has line art pairs which will mimic tattoo lines, this will help the model to learn and remove those lines.
 
+(3) Apdrawing dataset only has portrait head shots, For full body images I ran my previous ArtLine project and overlayed the output with the input image.
 
 ![Imgur](https://i.imgur.com/RYSBhcg.jpg)
 
 
 ![Imgur](https://i.imgur.com/sm66zlt.jpg)
 
+(4) ImageDraw.Draw was used with forest green colour codes and placed randomly on zommed-in body images. 
 
-Apdrawing dataset only has portrait head shots, For full body images I ran my previous ArtLine project and overlayed the output with the input image.
-
-ImageDraw.Draw was used with forest green colour codes and placed randomly on zommed-in body images. 
-
-Photoshop was also used to create few realestic looking images.
+(5) Photoshop was also used to create few realestic looking images.
 
 ![Imgur](https://i.imgur.com/EcpIIGT.jpg)
 
