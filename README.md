@@ -3,7 +3,7 @@
 
 __Contact__: vijishmadhavan@gmail.com
 
-I planned this project after watching Justin Bieber's "Anyone" Music Video, He had his tattoo covered up with the help of artists airbrushing on him for hours. The results were amazing in the music video. Producing that sought of video output can be difficult, So I opted for Images. Can deep learning do a decent job or can it even match photoshop? This was the starting point of this project!! 
+I planned this project after watching Justin Bieber's "Anyone" Music Video, He had his tattoo covered up with the help of artists airbrushing on him for hours. The results were amazing in the music video. Producing that sought of video output can be difficult, so I opted for Images. Can deep learning do a decent job or can it even match photoshop? This was the starting point of this project!! 
 
 Why not photoshop? 
 
@@ -94,6 +94,7 @@ I would request you to have a loot at limitations given below.
 - Building a huge dataset by myself was impossible, so had to go with limited number of image pairs.
 - Tattoo designs are uniques it differs from person to person so model might fall in some cases.
 - Coloured tattoos wont work, the dataset had none.
+- I am a crappy coder. 
 
 ## Acknowledgments
 
