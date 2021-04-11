@@ -26,7 +26,7 @@ To do such a project we need lot of image pairs, I couldnt find any such dataset
 
 ![Imgur](https://i.imgur.com/sm66zlt.jpg)
 
-(4) ImageDraw.Draw was used with forest green colour codes and placed randomly on zommed-in body images. 
+(4) ImageDraw.Draw was used with forest green colour codes and placed randomly on zommed-in body images, Similar to Crappify in fast.ai.
 
 (5) Photoshop was also used to place tattoos in subjects were warping and angle change was needed.
 
