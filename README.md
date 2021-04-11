@@ -11,7 +11,7 @@ Phtoshop can produce extemely good results but it needs expertise and hours of w
 
 What about Video?
 
-May be with some help and collaboration. 
+Let's work together. 
 
 
 ### Allen Iverson's(American basketball player) tattoo removed using this model. 
