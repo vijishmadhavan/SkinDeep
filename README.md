@@ -53,8 +53,11 @@ To do such a project we need lot of image pairs, I couldnt find any such dataset
 ## Technical Details
 
 The highlight of the project is in producing synthetic data, thanks to **pyimagesearch.com** for wonder blogs. Check below links.
+
 https://www.pyimagesearch.com/2016/03/07/transparent-overlays-with-opencv/
+
 https://www.pyimagesearch.com/2016/04/25/watermarking-images-with-opencv-and-python/
+
 https://www.pyimagesearch.com/2015/01/26/multi-scale-template-matching-using-python-opencv/
 
 * **Self-Attention** (https://arxiv.org/abs/1805.08318). Generator is pretrained UNET with spectral normalization and self-attention. Something that I got from Jason Antic's DeOldify(https://github.com/jantic/DeOldify), this made a huge difference, all of a sudden I started getting proper details around the facial features.
