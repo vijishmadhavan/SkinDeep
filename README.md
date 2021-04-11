@@ -3,6 +3,14 @@
 
 __Contact__: vijishmadhavan@gmail.com
 
+I planned this project after watching Justin Bieber's "Anyone" Music Video, He had his tattoo covered up with the help of artists airbrushing on him for hours. The results were amazing in the music video. This was the starting point, Let's see what Deep Learning can do! I have not worked on video yet but started getting promising results with photos. 
+
+Why not photoshop? 
+
+Phtoshop can do produce extemely good results but it needs expertise and hours of work retouching the whole image.
+
+
+
 I planned this project after getting inspired by the book "Skin Deep: Looking Beyond the Tattoos" by Steven Burton. The Book uniquely highlights the impact tattoos have on the way a person is perceived by showing what each participant(former gang members) might look like without them. It took Steven about 400 hours in retouching the photos and removing the tattoos. Can deep learning do a decent job or can it even match his work? This was the starting point of this project!!
 
 I would suggest everyone to have a look at the book, u can get it from Amazon: https://www.amazon.com/Skin-Deep-Looking-Beyond-Tattoos/dp/157687849X. 
