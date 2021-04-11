@@ -1,8 +1,8 @@
 # SkinDeep
 
-<div class="bg-gray-dark text-white p-3 mb-2">
+<div class="bg-blue text-white p-3">
   <span class="border border-white-fade p-2">
-    .border-white-fade .bg-gray-dark
+    .border-white-fade .bg-blue
   </span>
 </div>
 __Contact__: vijishmadhavan@gmail.com
