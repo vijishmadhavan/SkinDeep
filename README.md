@@ -6,8 +6,6 @@ I planned this project after getting inspired by the book "Skin Deep: Looking Be
 
 I would suggest everyone to have a look at the book, u can get it from Amazon: https://www.amazon.com/Skin-Deep-Looking-Beyond-Tattoos/dp/157687849X. 
 
-To do such a project we need lot of image pairs dataset, I couldnt find any such dataset so I opted for synthetic data.
-
 ### Allen Iverson's(American basketball player) tattoo removed using this model. 
 
 ![Imgur](https://i.imgur.com/fZHb5II.jpg)
@@ -15,11 +13,13 @@ To do such a project we need lot of image pairs dataset, I couldnt find any such
 
 # Synthetic data generation
 
+To do such a project we need lot of image pairs, I couldnt find any such dataset so I opted for synthetic data.
+
 (1) Overlaying Apdrawing dataset image pairs along with some background removed tattoo designs, This can be easily done using Python Opencv. 
 
 (2) Apdrawing dataset has line art pairs which will mimic tattoo lines, this will help the model to learn and remove those lines.
 
-(3) Apdrawing dataset only has portrait head shots, For full body images I ran my previous ArtLine project and overlayed the output with the input image.
+(3) Apdrawing dataset only has portrait head shots, For full body images I ran my previous ArtLine(https://github.com/vijishmadhavan/ArtLine) project and overlayed the output with the input image.
 
 ![Imgur](https://i.imgur.com/RYSBhcg.jpg)
 
@@ -28,7 +28,7 @@ To do such a project we need lot of image pairs dataset, I couldnt find any such
 
 (4) ImageDraw.Draw was used with forest green colour codes and placed randomly on zommed-in body images. 
 
-(5) Photoshop was also used to create few realestic looking images.
+(5) Photoshop was also used to place tattoos in subjects were warping and angle change was needed.
 
 ![Imgur](https://i.imgur.com/EcpIIGT.jpg)
 
