@@ -1,7 +1,7 @@
 
 
 # SkinDeep <a id="SkinDeep">
-![SkinDeep](https://capsule-render.vercel.app/api?type=SkinDeep&height=200&text=SkinDeep&fontAlign=80&fontAlignY=40&color=gradient)
+![SkinDeep](https://capsule-render.vercel.app/api?type=SkinDeep!&height=200&text=SkinDeep&fontAlign=80&fontAlignY=40&color=gradient)
 
 __Contact__: vijishmadhavan@gmail.com
 
