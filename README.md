@@ -1,6 +1,5 @@
 # SkinDeep
-<div class="text-white bg-blue mb-2">
-  .text-white on .bg-blue
+#fff5b1, $bg-yellow-light
 
 __Contact__: vijishmadhavan@gmail.com
 
