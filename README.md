@@ -75,3 +75,5 @@ https://www.pyimagesearch.com/2015/01/26/multi-scale-template-matching-using-pyt
 
 * **Generator Loss** :  Perceptual Loss/Feature Loss based on VGG16. (https://arxiv.org/pdf/1603.08155.pdf).
 
+## Required libraries
+
