@@ -1,10 +1,8 @@
 # SkinDeep
 
-<div class="bg-blue text-white p-3">
-  <span class="border border-white-fade p-2">
-    .border-white-fade .bg-blue
-  </span>
-</div>
+## Waving <a id="waving">
+![waving](https://capsule-render.vercel.app/api?type=waving&height=200&text=Waving!&fontAlign=80&fontAlignY=40&color=gradient)
+
 __Contact__: vijishmadhavan@gmail.com
 
 I planned this project after getting inspired by the book "Skin Deep: Looking Beyond the Tattoos" by Steven Burton. The Book uniquely highlights the impact tattoos have on the way a person is perceived by showing what each participant(former gang members) might look like without them. It took Steven about 400 hours in retouching the photos and removing the tattoos. Can deep learning do a decent job or can it even match his work? This was the starting point of this project!!
