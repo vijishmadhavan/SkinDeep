@@ -18,6 +18,9 @@ Let's work together.
 
 ![Imgur](https://i.imgur.com/mEuf6CX.gif)
 
+- [Example Outputs](#Example-Outputs)
+
+
 # Synthetic data generation
 
 To do such a project we need lot of image pairs, I couldn't find any such dataset so I opted for synthetic data.
