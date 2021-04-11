@@ -6,7 +6,7 @@ __Contact__: vijishmadhavan@gmail.com
 
 I planned this project after watching Justin Bieber's "Anyone" Music Video, He had his tattoo covered up with the help of artists airbrushing on him for hours. The results were amazing in the music video. Producing that sought of video output can be difficult, so I opted for Images. Can deep learning do a decent job or can it even match photoshop? This was the starting point of this project!! 
 
-Why not photoshop? 
+## Why not photoshop? 
 
 Photoshop can produce extremely good results but it needs expertise and hours of work retouching the whole image.
 
