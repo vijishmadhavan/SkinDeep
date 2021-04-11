@@ -53,7 +53,7 @@ Mail me for modified Apdrawing dataset.
 
 ![Imgur](https://i.imgur.com/A9ziYQK.png)
 
-#### Heavily tattooed faces
+### Heavily tattooed faces
 
 ![Imgur](https://i.imgur.com/BrWJTp7.jpg)
 
