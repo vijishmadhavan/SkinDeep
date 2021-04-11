@@ -47,8 +47,7 @@ To do such a project we need lot of image pairs, I couldnt find any such dataset
 
 # Qualitative Comparison
 
-![Imgur](https://i.imgur.com/WHfvn9v.png)
-
+![Imgur](https://i.imgur.com/Jytk9Qe.png)
 
 
 
