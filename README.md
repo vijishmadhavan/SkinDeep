@@ -10,16 +10,13 @@ Why not photoshop?
 
 Photoshop can produce extremely good results but it needs expertise and hours of work retouching the whole image.
 
-What about video?
-
-Let's work together. 
-
-
 ### Allen Iverson's(American basketball player) tattoo removed using this model. 
 
 ![Imgur](https://i.imgur.com/mEuf6CX.gif)
 
+
 - [Example Outputs](#Example-Outputs)
+- [Getting Started Yourself](#Getting-Started-Yourself)
 
 
 # Synthetic data generation
