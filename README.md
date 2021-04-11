@@ -1,4 +1,7 @@
 # SkinDeep
+<div class="bg-yellow-light mb-2">
+  .text-gray-dark on .bg-yellow-light
+</div>
 
 __Contact__: vijishmadhavan@gmail.com
 
