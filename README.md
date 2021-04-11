@@ -7,9 +7,9 @@ I planned this project after watching Justin Bieber's "Anyone" Music Video, He h
 
 Why not photoshop? 
 
-Phtoshop can produce extemely good results but it needs expertise and hours of work retouching the whole image.
+Photoshop can produce extremely good results but it needs expertise and hours of work retouching the whole image.
 
-What about Video?
+What about video?
 
 Let's work together. 
 
@@ -20,13 +20,13 @@ Let's work together.
 
 # Synthetic data generation
 
-To do such a project we need lot of image pairs, I couldnt find any such dataset so I opted for synthetic data.
+To do such a project we need lot of image pairs, I couldn't find any such dataset so I opted for synthetic data.
 
-(1) Overlaying Apdrawing dataset image pairs along with some background removed tattoo designs, This can be easily done using Python Opencv. 
+(1) Overlaying APDrawing dataset image pairs along with some background removed tattoo designs, This can be easily done using Python OpenCV. 
 
 (2) Apdrawing dataset has line art pairs which will mimic tattoo lines, this will help the model to learn and remove those lines.
 
-(3) Apdrawing dataset only has portrait head shots, For full body images I ran my previous ArtLine(https://github.com/vijishmadhavan/ArtLine) project and overlayed the output with the input image.
+(3) APDrawing dataset only has portrait head shots, For full body images I ran my previous ArtLine(https://github.com/vijishmadhavan/ArtLine) project and overlayed the output with the input image.
 
 ![Imgur](https://i.imgur.com/RYSBhcg.jpg)
 
@@ -35,7 +35,7 @@ To do such a project we need lot of image pairs, I couldnt find any such dataset
 
 (4) ImageDraw.Draw was used with forest green colour codes and placed randomly on zommed-in body images, Similar to Crappify in fast.ai.
 
-(5) Photoshop was also used to place tattoos in subjects were warping and angle change was needed.
+(5) Photoshop was also used to place tattoos in subjects where warping and angle change was needed.
 
 ![Imgur](https://i.imgur.com/EcpIIGT.jpg)
 
@@ -94,10 +94,10 @@ I would request you to have a loot at limitations given below.
 
 ## Limitations
 
-- Synthetic data does not match real tattoos so the model struggles a bit with some images.
-- Building a huge dataset by myself was impossible, so had to go with limited number of image pairs.
-- Tattoo designs are uniques it differs from person to person so model might fall in some cases.
-- Coloured tattoos wont work, the dataset had none.
+- Synthetic data does not match real tattoos, so the model struggles a bit with some images.
+- Building a huge dataset by myself was impossible, so had to go with a limited number of image pairs.
+- Tattoo designs are unique, it differs from person to person so model might fall in some cases.
+- Coloured tattoos won't work, the dataset had none.
 - I am a crappy coder. 
 
 ## Acknowledgments
