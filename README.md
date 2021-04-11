@@ -67,7 +67,7 @@ Mail me for modified Apdrawing dataset.
 
 ## Technical Details
 
-The highlight of the project is in producing synthetic data, thanks to **pyimagesearch.com** for wonderfull blogs. Check below links.
+The highlight of the project is in producing synthetic data, thanks to **pyimagesearch.com** for wonderful blogs. Check below links.
 
 https://www.pyimagesearch.com/2016/03/07/transparent-overlays-with-opencv/
 
