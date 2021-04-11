@@ -15,8 +15,8 @@ Photoshop can produce extremely good results but it needs expertise and hours of
 ![Imgur](https://i.imgur.com/mEuf6CX.gif)
 
 
-- [Example Outputs](#Example-Outputs)
-- [Getting Started Yourself](#Getting-Started-Yourself)
+- [Example Outputs](#Example-Outputs) LARGE BLUE DIAMOND (&#x1F537;):
+- [Getting Started Yourself](#Getting-Started-Yourself)LARGE BLUE DIAMOND (&#x1F537;):
 
 
 # Synthetic data generation
