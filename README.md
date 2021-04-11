@@ -1,7 +1,7 @@
 
 
 # SkinDeep <a id="waving">
-[SkinDeep](https://capsule-render.vercel.app/api?type=waving&height=200&text=Waving!&fontAlign=80&fontAlignY=40&color=gradient)
+![SkinDeep](https://capsule-render.vercel.app/api?type=waving&height=200&text=Waving!&fontAlign=80&fontAlignY=40&color=gradient)
 
 __Contact__: vijishmadhavan@gmail.com
 
