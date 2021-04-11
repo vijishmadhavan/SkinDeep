@@ -3,7 +3,7 @@
 
 __Contact__: vijishmadhavan@gmail.com
 
-I planned this project after watching Justin Bieber's "Anyone" Music Video, He had his tattoo covered up with the help of artists airbrushing on him for hours. The results were amazing in the music video. Producing that sought of output in video can be difficult, So I opted for Images. Can deep learning do a decent job or can it even match photoshop? This was the starting point of this project!! 
+I planned this project after watching Justin Bieber's "Anyone" Music Video, He had his tattoo covered up with the help of artists airbrushing on him for hours. The results were amazing in the music video. Producing that sought of video output can be difficult, So I opted for Images. Can deep learning do a decent job or can it even match photoshop? This was the starting point of this project!! 
 
 Why not photoshop? 
 
@@ -61,7 +61,7 @@ Mail me for modified Apdrawing dataset.
 
 ## Technical Details
 
-The highlight of the project is in producing synthetic data, thanks to **pyimagesearch.com** for wonder blogs. Check below links.
+The highlight of the project is in producing synthetic data, thanks to **pyimagesearch.com** for wonderfull blogs. Check below links.
 
 https://www.pyimagesearch.com/2016/03/07/transparent-overlays-with-opencv/
 
@@ -77,3 +77,24 @@ https://www.pyimagesearch.com/2015/01/26/multi-scale-template-matching-using-pyt
 
 ## Required libraries
 
+This project is built around the wonderful Fast.AI library.
+
+- **fastai==1.0.61** (and its dependencies).  Please dont install the higher versions
+- **PyTorch 1.6.0** Please don't install the higher versions
+
+## Getting Started Yourself
+
+The easiest way to get started is to simply try out on Colab: https://colab.research.google.com/github/vijishmadhavan/Light-Up/blob/master/ArtLine(Try_it_on_Colab).ipynb, The output is limited to 500px and it need high quality images to do well.
+
+I would request you to have a loot at limitations given below.
+
+## Limitations
+
+- Synthetic data does not match real tattoos so the model struggles a bit with some images.
+- Building a huge dataset by myself was impossible, so had to go with limited number of image pairs.
+- Tattoo designs are uniques it differs from person to person so model might fall in some cases.
+- Coloured tattoos wont work, the dataset had none.
+
+## Acknowledgments
+
+- Thanks to fast.ai and pyimagesearch.com. 
