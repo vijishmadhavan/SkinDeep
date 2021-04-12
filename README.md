@@ -92,7 +92,7 @@ This project is built around the wonderful Fast.AI library.
 
 The project is still a work in progress, but I want to put it out so that I get some good suggestions.
 
-The easiest way to get started is to simply try out on Colab: [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/vijishmadhavan/SkinDeep/blob/master/SkinDeep_good.ipynb)
+The easiest way to get started is to simply try out on Colab: [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/vijishmadhavan/SkinDeep/blob/master/SkinDeep.ipynb)
 
 
 The output is limited to 500px and it needs high quality images to do well.
