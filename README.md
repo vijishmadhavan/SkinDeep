@@ -115,4 +115,4 @@ The model still struggles and needs a lot of improvement, if you are interested 
 
 ## Acknowledgments
 
-- Thanks to fast.ai and pyimagesearch.com.
+- Thanks to fast.ai, Jason Antic(https://github.com/jantic) and pyimagesearch.com.
