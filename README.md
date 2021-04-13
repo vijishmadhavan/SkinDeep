@@ -59,6 +59,8 @@ Mail me for modified Apdrawing dataset.
 
 ![Imgur](https://i.imgur.com/BrWJTp7.jpg)
 
+![Imgur](https://i.imgur.com/VC0vJAU.jpg)
+
 # Visual Comparison
 
 ![Imgur](https://i.imgur.com/Jytk9Qe.png)
