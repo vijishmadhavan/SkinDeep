@@ -4,13 +4,13 @@
 
 __Contact__: vijishmadhavan@gmail.com
 
-I planned this project after watching Justin Bieber's "Anyone" Music Video, He had his tattoo covered up with the help of artists airbrushing on him for hours. The results were amazing in the music video. Producing that sought of video output can be difficult, so I opted for Images. Can deep learning do a decent job or can it even match photoshop? This was the starting point of this project!! 
+I planned this project after watching Justin Bieber's "Anyone" Music Video, He had his tattoo covered up with the help of artists airbrushing on him for hours. The results were amazing in the music video. Producing that sought of video output can be difficult, so I opted for Images. Can deep learning do a decent job or can it even match photoshop? This was the starting point of this project!!
 
-## Why not photoshop? 
+## Why not photoshop?
 
 Photoshop can produce extremely good results but it needs expertise and hours of work retouching the whole image.
 
-### Allen Iverson's(American basketball player) tattoo removed using this model. 
+### Allen Iverson's(American basketball player) tattoo removed using this model.
 
 ![Imgur](https://i.imgur.com/mEuf6CX.gif)
 
@@ -22,26 +22,26 @@ Photoshop can produce extremely good results but it needs expertise and hours of
 
 # Synthetic data generation
 
-To do such a project we need lot of image pairs, I couldn't find any such dataset so I opted for synthetic data.
+To do such a project we need a lot of image pairs, I couldn't find any such dataset so I opted for synthetic data.
 
-(1) Overlaying APDrawing dataset image pairs along with some background removed tattoo designs, This can be easily done using Python OpenCV. 
+(1) Overlaying APDrawing dataset image pairs along with some background removed tattoo designs, This can be easily done using Python OpenCV.
 
 (2) Apdrawing dataset has line art pairs which will mimic tattoo lines, this will help the model to learn and remove those lines.
 
-(3) APDrawing dataset only has portrait head shots, For full body images I ran my previous ArtLine(https://github.com/vijishmadhavan/ArtLine) project and overlayed the output with the input image.
+(3) APDrawing dataset only has portrait head shots, For full body images I ran my previous ArtLine(https://github.com/vijishmadhavan/ArtLine) project and overlaid the output with the input image.
 
 ![Imgur](https://i.imgur.com/RYSBhcg.jpg)
 
 
 ![Imgur](https://i.imgur.com/sm66zlt.jpg)
 
-(4) ImageDraw.Draw was used with forest green colour codes and placed randomly on zommed-in body images, Similar to Crappify in fast.ai.
+(4) ImageDraw.Draw was used with forest green colour codes and placed randomly on zoomed-in body images, Similar to Crappify in fast.ai.
 
 (5) Photoshop was also used to place tattoos in subjects where warping and angle change was needed.
 
 ![Imgur](https://i.imgur.com/EcpIIGT.jpg)
 
-Mail me for modified Apdrawing dataset.
+Mail me for a modified Apdrawing dataset.
 
 
 # Example Outputs
@@ -77,7 +77,7 @@ https://www.pyimagesearch.com/2015/01/26/multi-scale-template-matching-using-pyt
 
 * **Self-Attention** (https://arxiv.org/abs/1805.08318). Generator is pretrained UNET with spectral normalization and self-attention. Something that I got from Jason Antic's DeOldify(https://github.com/jantic/DeOldify), this made a huge difference, all of a sudden I started getting proper details around the facial features.
 
-* **Progressive Resizing** (https://arxiv.org/abs/1710.10196),(https://arxiv.org/pdf/1707.02921.pdf). Progressive resizing takes this idea of gradually increasing the image size, In this project the image size were gradually increased and learning rates were adjusted. Thanks to fast.ai for intrdoucing me to Progressive resizing, this helps the model to generalise better as it sees many more different images.
+* **Progressive Resizing** (https://arxiv.org/abs/1710.10196),(https://arxiv.org/pdf/1707.02921.pdf). Progressive resizing takes this idea of gradually increasing the image size, In this project the image size was gradually increased and learning rates were adjusted. Thanks to fast.ai for introducing me to Progressive resizing, this helps the model to generalise better as it sees many more different images.
 
 * **Generator Loss** :  Perceptual Loss/Feature Loss based on VGG16. (https://arxiv.org/pdf/1603.08155.pdf).
 
@@ -85,7 +85,7 @@ https://www.pyimagesearch.com/2015/01/26/multi-scale-template-matching-using-pyt
 
 This project is built around the wonderful Fast.AI library.
 
-- **fastai==1.0.61** (and its dependencies).  Please dont install the higher versions
+- **fastai==1.0.61** (and its dependencies).  Please don't install the higher versions
 - **PyTorch 1.6.0** Please don't install the higher versions
 
 ## Getting Started Yourself
@@ -98,19 +98,19 @@ The easiest way to get started is to simply try out on Colab: [<img src="https:/
 
 The output is limited to 500px and it needs high quality images to do well.
 
-I would request you to have a loot at the limitations given below.
+I would request you to have a look at the limitations given below.
 
 ## Limitations
 
 - Synthetic data does not match real tattoos, so the model struggles a bit with some images.
-- Building a huge dataset by myself was impossible, so had to go with a limited number of image pairs.
-- Tattoo designs are unique, it differs from person to person so model might fall in some cases.
+- Building a huge dataset by myself was impossible, so I had to go with a limited number of image pairs.
+- Tattoo designs are unique, it differs from person to person so the model might fall in some cases.
 - Coloured tattoos won't work, the dataset had none.
 
 ## Going Forward
 
-The model still struggles and needs lot of improvement, If intrested please contribute lets improve it.
+The model still struggles and needs a lot of improvement, if you are interested please contribute lets improve it.
 
 ## Acknowledgments
 
-- Thanks to fast.ai and pyimagesearch.com. 
+- Thanks to fast.ai and pyimagesearch.com.
