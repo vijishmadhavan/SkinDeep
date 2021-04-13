@@ -106,7 +106,6 @@ I would request you to have a loot at the limitations given below.
 - Building a huge dataset by myself was impossible, so had to go with a limited number of image pairs.
 - Tattoo designs are unique, it differs from person to person so model might fall in some cases.
 - Coloured tattoos won't work, the dataset had none.
-- I am a crappy coder. 
 
 ## Going Forward
 
