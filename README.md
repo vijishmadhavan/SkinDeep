@@ -65,7 +65,6 @@ Mail me for a modified Apdrawing dataset.
 
 ![Imgur](https://i.imgur.com/Jytk9Qe.png)
 
-![Imgur](https://i.imgur.com/AwM3BAl.png)
 
 ## Technical Details
 
