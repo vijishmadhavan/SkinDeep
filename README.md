@@ -10,7 +10,7 @@ I planned this project after watching Justin Bieber's "Anyone" Music Video, He h
 
 Photoshop can produce extremely good results but it needs expertise and hours of work retouching the whole image.
 
-!https://i.imgur.com/CIwhJgN.gifv
+!https://i.imgur.com/CIwhJgN.gif
 
 ## Updates
 
