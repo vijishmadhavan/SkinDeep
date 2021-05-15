@@ -10,9 +10,14 @@ I planned this project after watching Justin Bieber's "Anyone" Music Video, He h
 
 Photoshop can produce extremely good results but it needs expertise and hours of work retouching the whole image.
 
-### Allen Iverson's(American basketball player) tattoo removed using this model.
+!https://i.imgur.com/CIwhJgN.gifv
 
-![Imgur](https://i.imgur.com/mEuf6CX.gif)
+## Updates
+
+SkinDeep Video is getting ready, thanks to 3dsf (https://github.com/3dsf) for the tremendous effort he has put into this project to make this happen.
+
+
+
 
 ## Highlights
 
