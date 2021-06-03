@@ -9,9 +9,7 @@ __Contact__: vijishmadhavan@gmail.com
 SkinDeep Video is getting ready, thanks to 3dsf (https://github.com/3dsf) for the tremendous effort he has put into this project to make this happen.
 
 ![Lil](https://thumbs.gfycat.com/QuestionableSlipperyAchillestang-size_restricted.gif)
-![Rock](https://thumbs.https://gfycat.com/phonymindlesskilldeer-size_restricted.gif)
-
-
+![rock](https://i.imgur.com/ugQdTu7.gif)
 I planned this project after watching Justin Bieber's "Anyone" Music Video, He had his tattoo covered up with the help of artists airbrushing on him for hours. The results were amazing in the music video. Producing that sought of video output can be difficult, so I opted for Images. Can deep learning do a decent job or can it even match photoshop? This was the starting point of this project!!
 
 ## Why not photoshop?
