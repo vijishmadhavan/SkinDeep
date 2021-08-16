@@ -41,7 +41,7 @@ To do such a project we need a lot of image pairs, I couldn't find any such data
 
 (5) Photoshop was also used to place tattoos in subjects where warping and angle change was needed.
 
-![Imgur](https://i.imgur.com/EcpIIGT.jpg)
+![Imgur](https://i.imgur.com/xbzVVEC.jpg)
 
 Mail me for a modified Apdrawing dataset.
 
