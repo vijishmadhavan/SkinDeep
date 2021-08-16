@@ -32,10 +32,10 @@ To do such a project we need a lot of image pairs, I couldn't find any such data
 
 (3) APDrawing dataset only has portrait head shots, For full body images I ran my previous ArtLine(https://github.com/vijishmadhavan/ArtLine) project and overlaid the output with the input image.
 
-![Imgur](https://i.imgur.com/RYSBhcg.jpg)
+![Imgur](https://i.imgur.com/2NK4DRU.jpg)
 
 
-![Imgur](https://i.imgur.com/sm66zlt.jpg)
+![Imgur](https://i.imgur.com/HWBiNnN.jpg)
 
 (4) ImageDraw.Draw was used with forest green colour codes and placed randomly on zoomed-in body images, Similar to Crappify in fast.ai.
 
@@ -59,13 +59,13 @@ Mail me for a modified Apdrawing dataset.
 
 ### Heavily tattooed faces
 
-![Imgur](https://i.imgur.com/BrWJTp7.jpg)
+![Imgur](https://i.imgur.com/dANN7Do.jpg)
 
-![Imgur](https://i.imgur.com/VC0vJAU.jpg)
+![Imgur](https://i.imgur.com/Lq0i1N0.jpg)
 
 # Visual Comparison
 
-![Imgur](https://i.imgur.com/Jytk9Qe.png)
+![Imgur](https://i.imgur.com/wCgMROl.jpg)
 
 
 ## Technical Details
