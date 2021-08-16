@@ -49,13 +49,13 @@ Mail me for a modified Apdrawing dataset.
 # Example Outputs
 
 
-![Imgur](https://i.imgur.com/ALw5of3.png)
+![Imgur](https://i.imgur.com/y7NM1f8.jpg)
 
 
-![Imgur](https://i.imgur.com/cjY7f3P.png)
+![Imgur](https://i.imgur.com/WEnbL8w.jpg)
 
 
-![Imgur](https://i.imgur.com/A9ziYQK.png)
+![Imgur](https://i.imgur.com/X5lZEse.jpg)
 
 ### Heavily tattooed faces
 
