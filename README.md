@@ -103,6 +103,37 @@ The output is limited to 500px and it needs high quality images to do well.
 
 I would request you to have a look at the limitations given below.
 
+### Docker
+
+*Note:* These instructions are for running with an NVDIA GPU on Linux.
+
+**Prequisites**
+
+* Make sure your NVIDA drivers are correctly installed.  Running ```nvidia-smi``` should confirm your driver version and memory usage
+* Approximately 3.7GB of free GPU memory
+* The nvidia-docker2 package installed.  This will allow the Docker container access to the GPU
+* Docker installed with the correct permissions for your system
+
+**Run the container**
+
+This runs against all of the GPUs.  Check the Docker documentation for running on a specific card if you have multiple.  
+The type=bind mounts the current directory (where you checked out the project) as the home in the container.  This allows you immediate access to the notebooks.
+```bash
+$> docker run --gpus all \
+              --mount type=bind,source=`pwd`,target=/home/jovyan \
+              -d \
+              -p 8888:8888 -p 4040:4040 -p 4041:4041 \
+              jupyter/tensorflow-notebook:python-3.8.8
+```
+
+**Launch the site**
+
+Use 'ps' to get the id of your new container, then print out the logs to get the launch URL.  This is required because an authenication token is created at startup.
+```bash
+$> docker ps
+$> docker logs <container_id>
+```
+
 ## Limitations
 
 - Synthetic data does not match real tattoos, so the model struggles a bit with some images.
