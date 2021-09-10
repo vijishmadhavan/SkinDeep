@@ -6,6 +6,7 @@ Model/Tattoo/
 *.pkl
 input.mp4
 .idea/
+SkinDeep/
 
 
 # Byte-compiled / optimized / DLL files
