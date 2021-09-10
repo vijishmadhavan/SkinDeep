@@ -5,6 +5,7 @@
 Model/Tattoo/
 *.pkl
 input.mp4
+.idea/
 
 
 # Byte-compiled / optimized / DLL files
