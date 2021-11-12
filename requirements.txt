@@ -87,7 +87,7 @@ six==1.15.0
 soupsieve==2.0.1 
 spacy==2.3.2 
 srsly==1.0.2 
-streamlit==0.64.0 
+streamlit==0.84.0
 terminado==0.9.0 
 testpath==0.4.4 
 thinc==7.4.1 
