@@ -44,7 +44,7 @@ if uploaded_file is not None:
   col1, col2 = st.beta_columns(2)
   img = PIL.Image.open(uploaded_file).convert("RGB")
   imageLocation = st.empty()
-  imageLocation.image(img, width = 512)
+  imageLocation.image(img, width = 400)
   MODEL_URL = "https://www.dropbox.com/s/58c3wsu9knq83b1/Goodhalf.pkl?dl=1 "
   urllib.request.urlretrieve(MODEL_URL, "Goodhalf.pkl")
   path = Path(".")
@@ -53,7 +53,7 @@ if uploaded_file is not None:
   img_fast = Image(img_t)
   p,img_hr,b = learn.predict(img_fast)
   img_np=image2np(img_hr)
-  st.image(img_np,clamp=True,width = 512)
+  st.image(img_np,clamp=True,width = 400)
 
       
       
