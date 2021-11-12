@@ -8,7 +8,7 @@ RUN pip3 install -r requirements.txt
 
 EXPOSE 8501
 
-COPY . /enhance
+COPY . 
 
 ENTRYPOINT ["streamlit","run"]
 
