@@ -70,8 +70,10 @@ if Image is not None:
   urlretrieve(MODEL_URL, "SkinDeep2.pkl")
   path = Path(".")
   learn=load_learner(path, 'SkinDeep2.pkl')
-  img_t = T.ToTensor()(img)
-  img_fast = Image(img_t)
+  im1 = img.save("test.jpg")
+  img_fast = open_image("test.jpg")
+  #img_t = T.ToTensor()(img)
+  #img_fast = Image(img_t)
   _, img_hr, _ = learn.predict(img_fast)
   img_np=image2np(img_hr)
   with col2:
