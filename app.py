@@ -52,7 +52,7 @@ if Image is not None:
         st.image(Image1)
   imageLocation = st.empty()
   imageLocation.image(img, width = 400)
-  MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl?dl=0"
+  MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl"
   urllib.request.urlretrieve(MODEL_URL, "SkinDeep2.pkl")
   path = Path(".")
   learn=load_learner(path, 'SkinDeep2.pkl')
