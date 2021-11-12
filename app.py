@@ -56,13 +56,14 @@ st.set_page_config(layout="wide")
 st.markdown("<h1 style='text-align: center; color: white;'>Get deinked!!</h1>", unsafe_allow_html=True)
 Image = st.file_uploader('Upload your picture here',type=['jpg','jpeg','png'])
 if Image is not None:
-  col1, col2 = st.beta_columns(2)
+  #col1, col2 = st.beta_columns(2)
+  col2 = st.beta_columns(1)
   img = PIL.Image.open(Image).convert("RGB")
   #Image = Image.read()
   #Image = tf.image.decode_image(Image, channels=3).numpy()                  
   #Image = adjust_gamma(Image, gamma=gamma)
   Image1 = np.array(img)
-  with col1:
+  #with col1:
         #st.image(Image1,width = 400, use_column_width=400)
   #imageLocation = st.empty()
   #imageLocation.image(img, width = 400)
