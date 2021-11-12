@@ -66,10 +66,10 @@ if Image is not None:
         st.image(Image1)
   imageLocation = st.empty()
   imageLocation.image(img, width = 400)
-  MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl"
-  urlretrieve(MODEL_URL, "SkinDeep2.pkl")
+  MODEL_URL = "https://www.dropbox.com/s/5mmcqao4mozpube/SkinDeep.pkl?dl=0"
+  urlretrieve(MODEL_URL, "SkinDeep.pkl")
   path = Path(".")
-  learn=load_learner(path, 'SkinDeep2.pkl')
+  learn=load_learner(path, 'SkinDeep.pkl')
   img_t = T.ToTensor()(img)
   img_fast = Image(img_t)
   p,img_hr,b = learn.predict(img_fast)
