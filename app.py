@@ -47,9 +47,9 @@ if Image is not None:
   #Image = Image.read()
   #Image = tf.image.decode_image(Image, channels=3).numpy()                  
   #Image = adjust_gamma(Image, gamma=gamma)
-  Image = image2np(img)
+  Image1 = image2np(img)
   with col1:
-        st.image(Image)
+        st.image(Image1)
   imageLocation = st.empty()
   imageLocation.image(img, width = 400)
   MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl?dl=0"
