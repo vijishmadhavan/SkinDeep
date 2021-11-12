@@ -50,7 +50,7 @@ class FeatureLoss(nn.Module):
     
     def __del__(self): self.hooks.remove()
 
-MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl"
+MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl?dl=0"
 urllib.request.urlretrieve(MODEL_URL, "SkinDeep2.pkl")
 path = Path(".")
 learn=load_learner(path, 'SkinDeep2.pkl')
