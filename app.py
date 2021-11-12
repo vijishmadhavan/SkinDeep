@@ -43,6 +43,11 @@ Image = st.file_uploader('Upload your picture here',type=['jpg','jpeg','png'])
 if uploaded_file is not None:
   col1, col2 = st.beta_columns(2)
   img = PIL.Image.open(uploaded_file).convert("RGB")
+  Image = Image.read()
+  Image = tf.image.decode_image(Image, channels=3).numpy()                  
+  Image = adjust_gamma(Image, gamma=gamma)
+  with col1:
+        st.image(Image)
   imageLocation = st.empty()
   imageLocation.image(img, width = 400)
   MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl?dl=0"
@@ -53,7 +58,8 @@ if uploaded_file is not None:
   img_fast = Image(img_t)
   p,img_hr,b = learn.predict(img_fast)
   img_np=image2np(img_hr)
-  st.image(img_np,clamp=True,width = 400)
+  with col2:
+    st.image(img_np,clamp=True,width = 400)
 
       
       
