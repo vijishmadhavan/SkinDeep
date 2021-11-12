@@ -40,7 +40,7 @@ st.set_page_config(layout="wide")
 #st.image(os.path.join('Images','2.jpg'), use_column_width  = True)
 st.markdown("<h1 style='text-align: center; color: white;'>Get deinked!!</h1>", unsafe_allow_html=True)
 Image = st.file_uploader('Upload your picture here',type=['jpg','jpeg','png'])
-if uploaded_file is not None:
+if Image is not None:
   col1, col2 = st.beta_columns(2)
   img = PIL.Image.open(Image).convert("RGB")
   Image = Image.read()
