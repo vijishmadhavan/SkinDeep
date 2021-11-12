@@ -1,27 +1,13 @@
 import streamlit as st
-import fastai
-from fastai.vision import *
-from fastai.utils.mem import *
-from fastai.vision import open_image, load_learner, image, torch
-import numpy as np4
-import urllib.request
-import PIL.Image
-from io import BytesIO
-import torchvision.transforms as T
-from PIL import Image
-import requests
-from io import BytesIO
-import fastai
-from fastai.vision import *
-from fastai.utils.mem import *
-from fastai.vision import open_image, load_learner, image, torch
-import numpy as np
-import urllib.request
+from fastai.vision.image import Image
+from fastai.vision import load_learner, show_image
 from urllib.request import urlretrieve
 import PIL.Image
 from io import BytesIO
 import torchvision.transforms as T
-import torchvision.transforms as tfms
+import requests
+from torch.nn import Module
+from pathlib import Path
 
 
 class FeatureLoss(nn.Module):
@@ -66,10 +52,10 @@ if Image is not None:
         st.image(Image1)
   imageLocation = st.empty()
   imageLocation.image(img, width = 400)
-  MODEL_URL = "https://www.dropbox.com/s/5mmcqao4mozpube/SkinDeep.pkl?dl=0"
-  urllib.request.urlretrieve(MODEL_URL, "SkinDeep.pkl")
+  MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl?dl=1"
+  urlretrieve(MODEL_URL, "SkinDeep2.pkl")
   path = Path(".")
-  learn=load_learner(path, 'SkinDeep.pkl')
+  learn=load_learner(path, 'SkinDeep2.pkl')
   img_t = T.ToTensor()(img)
   img_fast = Image(img_t)
   _, img_hr, _ = learn.predict(img_fast)
