@@ -67,7 +67,7 @@ if Image is not None:
   imageLocation = st.empty()
   imageLocation.image(img, width = 400)
   MODEL_URL = "https://www.dropbox.com/s/5mmcqao4mozpube/SkinDeep.pkl?dl=0"
-  urlretrieve(MODEL_URL, "SkinDeep.pkl")
+  urllib.request.urlretrieve(MODEL_URL, "SkinDeep.pkl")
   path = Path(".")
   learn=load_learner(path, 'SkinDeep.pkl')
   img_t = T.ToTensor()(img)
