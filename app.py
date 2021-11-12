@@ -1,14 +1,27 @@
 import streamlit as st
-from fastai.vision.image import Image
-from fastai.vision import load_learner, show_image
+import fastai
+from fastai.vision import *
+from fastai.utils.mem import *
+from fastai.vision import open_image, load_learner, image, torch
+import numpy as np4
+import urllib.request
+import PIL.Image
+from io import BytesIO
+import torchvision.transforms as T
+from PIL import Image
+import requests
+from io import BytesIO
+import fastai
+from fastai.vision import *
+from fastai.utils.mem import *
+from fastai.vision import open_image, load_learner, image, torch
+import numpy as np
+import urllib.request
 from urllib.request import urlretrieve
 import PIL.Image
 from io import BytesIO
 import torchvision.transforms as T
-import numpy as np
-import requests
-from torch.nn import Module
-from pathlib import Path
+import torchvision.transforms as tfms
 
 
 class FeatureLoss(nn.Module):
