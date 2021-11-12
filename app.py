@@ -37,18 +37,18 @@ class FeatureLoss(nn.Module):
     def __del__(self): self.hooks.remove()
     
 st.set_page_config(layout="wide")
-st.image(os.path.join('Images','Banner No2.png'), use_column_width  = True)
+st.image(os.path.join('Images','1.jpg'), use_column_width  = True)
 st.markdown("<h1 style='text-align: center; color: white;'>Get deinked!!</h1>", unsafe_allow_html=True)
-Image = st.file_uploader('Upload your portrait here',type=['jpg','jpeg','png'])
+Image = st.file_uploader('Upload your picture here',type=['jpg','jpeg','png'])
 if uploaded_file is not None:
   col1, col2 = st.beta_columns(2)
   img = PIL.Image.open(uploaded_file).convert("RGB")
   imageLocation = st.empty()
   imageLocation.image(img, width = 400)
-  MODEL_URL = "https://www.dropbox.com/s/58c3wsu9knq83b1/Goodhalf.pkl?dl=1 "
-  urllib.request.urlretrieve(MODEL_URL, "Goodhalf.pkl")
+  MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl?dl=0"
+  urllib.request.urlretrieve(MODEL_URL, "SkinDeep2.pkl")
   path = Path(".")
-  learn=load_learner(path, 'Goodhalf.pkl')
+  learn=load_learner(path, 'SkinDeep2.pkl')
   img_t = T.ToTensor()(img)
   img_fast = Image(img_t)
   p,img_hr,b = learn.predict(img_fast)
