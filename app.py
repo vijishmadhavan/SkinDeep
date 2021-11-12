@@ -47,7 +47,7 @@ if Image is not None:
   #Image = Image.read()
   #Image = tf.image.decode_image(Image, channels=3).numpy()                  
   #Image = adjust_gamma(Image, gamma=gamma)
-  Image1 = image2np(img)
+  Image1 = np.array(img)
   with col1:
         st.image(Image1)
   imageLocation = st.empty()
