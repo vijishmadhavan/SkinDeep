@@ -63,7 +63,7 @@ if Image is not None:
   #Image = adjust_gamma(Image, gamma=gamma)
   Image1 = np.array(img)
   with col1:
-        st.image(Image1,width = 400,height=400)
+        st.image(Image1,width = 400, use_column_width=400)
   #imageLocation = st.empty()
   #imageLocation.image(img, width = 400)
   MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl?dl=1"
