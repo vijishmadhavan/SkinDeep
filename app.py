@@ -72,7 +72,7 @@ if Image is not None:
   learn=load_learner(path, 'SkinDeep.pkl')
   img_t = T.ToTensor()(img)
   img_fast = Image(img_t)
-  p,img_hr,b = learn.predict(img_fast)
+  _, img_hr, _ = learn.predict(img_fast)
   img_np=image2np(img_hr)
   with col2:
     st.image(img_np,clamp=True,width = 400)
