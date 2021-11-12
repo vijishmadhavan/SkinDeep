@@ -75,3 +75,13 @@ def predict(input):
   return img 
 
 gr_interface = gr.Interface(fn=predict, inputs=gr.inputs.Image(), outputs="image", title='SkinDeep',examples=sample_images).launch();
+
+
+# iface.test_launch()
+
+if __name__ == "__main__":
+    print("server_name:", LOCALHOST_NAME)
+    print("server_port:", INITIAL_PORT_VALUE)
+
+    # iface.launch(inbrowser=True)
+    gr_interface.launch()
