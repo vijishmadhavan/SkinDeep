@@ -8,6 +8,8 @@ import urllib.request
 import PIL.Image
 from io import BytesIO
 import torchvision.transforms as T
+import tensorflow as tf
+
 
 class FeatureLoss(nn.Module):
     def __init__(self, m_feat, layer_ids, layer_wgts):
