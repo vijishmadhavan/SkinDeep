@@ -3,5 +3,6 @@ https://download.pytorch.org/whl/cpu/torchvision-0.7.0%2Bcpu-cp37-cp37m-linux_x8
 fastai==1.0.61
 numpy==1.17.2
 pandas==1.1.2 
-gradio
+streamlit==0.84.0
+
 
