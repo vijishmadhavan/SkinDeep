@@ -37,12 +37,12 @@ class FeatureLoss(nn.Module):
     def __del__(self): self.hooks.remove()
     
 st.set_page_config(layout="wide")
-st.image(os.path.join('Images','2.jpg'), use_column_width  = True)
+#st.image(os.path.join('Images','2.jpg'), use_column_width  = True)
 st.markdown("<h1 style='text-align: center; color: white;'>Get deinked!!</h1>", unsafe_allow_html=True)
 Image = st.file_uploader('Upload your picture here',type=['jpg','jpeg','png'])
 if uploaded_file is not None:
   col1, col2 = st.beta_columns(2)
-  img = PIL.Image.open(uploaded_file).convert("RGB")
+  img = PIL.Image.open(Image).convert("RGB")
   Image = Image.read()
   Image = tf.image.decode_image(Image, channels=3).numpy()                  
   Image = adjust_gamma(Image, gamma=gamma)
