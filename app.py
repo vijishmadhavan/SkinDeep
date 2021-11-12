@@ -50,7 +50,7 @@ class FeatureLoss(nn.Module):
     
     def __del__(self): self.hooks.remove()
 
-MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl?dl=1"
+MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl"
 urllib.request.urlretrieve(MODEL_URL, "SkinDeep2.pkl")
 path = Path(".")
 learn=load_learner(path, 'SkinDeep2.pkl')
@@ -76,12 +76,3 @@ def predict(input):
 
 gr_interface = gr.Interface(fn=predict, inputs=gr.inputs.Image(), outputs="image", title='SkinDeep',examples=sample_images).launch();
 
-
-# iface.test_launch()
-
-if __name__ == "__main__":
-    print("server_name:", LOCALHOST_NAME)
-    print("server_port:", INITIAL_PORT_VALUE)
-
-    # iface.launch(inbrowser=True)
-    gr_interface.launch()
