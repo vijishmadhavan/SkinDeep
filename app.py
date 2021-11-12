@@ -51,14 +51,14 @@ class FeatureLoss(nn.Module):
     def __del__(self): self.hooks.remove()
 
 MODEL_URL = "https://www.dropbox.com/s/5mmcqao4mozpube/SkinDeep.pkl?dl=1"
-urllib.request.urlretrieve(MODEL_URL, "SkinDeep.pkl")
+urllib.request.urlretrieve(MODEL_URL, "SkinDeep.pkl",headers={'User-Agent': 'Mozilla/5.0'})
 path = Path(".")
 learn=load_learner(path, 'SkinDeep.pkl')
 
-urlretrieve("https://pyxis.nymag.com/v1/imgs/ed6/c4f/367aedb908ac63e80936c174423cc4ac57-26-adam-levine-tattoos-005.2x.h473.w710.jpg","soccer1.jpg")
-urlretrieve("https://i.insider.com/5e56b2e8a9f40c0442550f4a?auto=webp&enable=upscale&fit=crop&quality=85&width=832&height=624","soccer2.jpg")
-urlretrieve("https://i.insider.com/5e56bfd3a9f40c1797218489?auto=webp&enable=upscale&fit=crop&quality=85&width=832&height=624","baseball.jpg")
-urlretrieve("https://wallpapercave.com/dwp1x/wp1990689.jpg","baseball2.jpeg")
+urlretrieve("https://pyxis.nymag.com/v1/imgs/ed6/c4f/367aedb908ac63e80936c174423cc4ac57-26-adam-levine-tattoos-005.2x.h473.w710.jpg","soccer1.jpg",headers={'User-Agent': 'Mozilla/5.0'})
+urlretrieve("https://i.insider.com/5e56b2e8a9f40c0442550f4a?auto=webp&enable=upscale&fit=crop&quality=85&width=832&height=624","soccer2.jpg",headers={'User-Agent': 'Mozilla/5.0'})
+urlretrieve("https://i.insider.com/5e56bfd3a9f40c1797218489?auto=webp&enable=upscale&fit=crop&quality=85&width=832&height=624","baseball.jpg",headers={'User-Agent': 'Mozilla/5.0'})
+urlretrieve("https://wallpapercave.com/dwp1x/wp1990689.jpg","baseball2.jpeg",headers={'User-Agent': 'Mozilla/5.0'})
 
 sample_images = [["soccer1.jpg"],
                  ["soccer2.jpg"],
