@@ -8,7 +8,6 @@ import urllib.request
 import PIL.Image
 from io import BytesIO
 import torchvision.transforms as T
-import tensorflow as tf
 
 
 class FeatureLoss(nn.Module):
@@ -45,9 +44,10 @@ Image = st.file_uploader('Upload your picture here',type=['jpg','jpeg','png'])
 if Image is not None:
   col1, col2 = st.beta_columns(2)
   img = PIL.Image.open(Image).convert("RGB")
-  Image = Image.read()
-  Image = tf.image.decode_image(Image, channels=3).numpy()                  
-  Image = adjust_gamma(Image, gamma=gamma)
+  #Image = Image.read()
+  #Image = tf.image.decode_image(Image, channels=3).numpy()                  
+  #Image = adjust_gamma(Image, gamma=gamma)
+  Image = image2np(img)
   with col1:
         st.image(Image)
   imageLocation = st.empty()
