@@ -64,8 +64,8 @@ if Image is not None:
   Image1 = np.array(img)
   with col1:
         st.image(Image1)
-  imageLocation = st.empty()
-  imageLocation.image(img, width = 400)
+  #imageLocation = st.empty()
+  #imageLocation.image(img, width = 400)
   MODEL_URL = "https://www.dropbox.com/s/vxgw0s7ktpla4dk/SkinDeep2.pkl?dl=1"
   urlretrieve(MODEL_URL, "SkinDeep2.pkl")
   path = Path(".")
