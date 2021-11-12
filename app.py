@@ -5,6 +5,7 @@ from urllib.request import urlretrieve
 import PIL.Image
 from io import BytesIO
 import torchvision.transforms as T
+import numpy as np
 import requests
 from torch.nn import Module
 from pathlib import Path
