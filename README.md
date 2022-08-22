@@ -7,7 +7,7 @@
 __Contact__: vijishmadhavan@gmail.com
 
 
-__Tip-me__: [patreon](https://www.patreon.com/vijishmadhavan)
+__Tip-me__: You can sponsor me to support my open source work 💖 [sponsor](https://github.com/sponsors/vijishmadhavan?o=sd&sc=t)
 
 
 ## Updates
