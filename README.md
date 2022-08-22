@@ -5,6 +5,7 @@
 
 
 __Contact__: vijishmadhavan@gmail.com
+__Tip-me__: [patreon](https://www.patreon.com/vijishmadhavan)
 
 
 ## Updates
