@@ -2,7 +2,6 @@
 
 # [SkinDeep](https://github.com/vijishmadhavan/SkinDeep) &nbsp; [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Skin%20Deep&url=https://github.com/vijishmadhavan/SkinDeep&via=Vijish68859437&hashtags=machinelearning,developers,100DaysOfCode,Deeplearning) &nbsp;
 
-! [sponsor](<iframe src="https://github.com/sponsors/vijishmadhavan/button" title="Sponsor vijishmadhavan" height="35" width="116" style="border: 0;"></iframe>)
 
 
 __Contact__: vijishmadhavan@gmail.com
