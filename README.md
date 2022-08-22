@@ -6,8 +6,7 @@
 
 __Contact__: vijishmadhavan@gmail.com
 
-
-__Tip-me__: You can sponsor me to support my open source work 💖 [sponsor](https://github.com/sponsors/vijishmadhavan?o=sd&sc=t)
+You can sponsor me to support my open source work 💖 [sponsor](https://github.com/sponsors/vijishmadhavan?o=sd&sc=t)
 
 
 ## Updates
