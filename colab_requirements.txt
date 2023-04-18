@@ -1,8 +1,8 @@
 fastai==1.0.61
 numpy==1.17.2
-pandas==1.1.2 
-torch==1.6.0
-torchvision===0.7.0
+torch==1.7.1 -f https://download.pytorch.org/whl/torch_stable.html 
+torchvision==0.8.2 -f https://download.pytorch.org/whl/torch_stable.html 
+pandas==1.2.5
 
 
 
