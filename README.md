@@ -23,6 +23,9 @@ With SkinDeep 2.0, you can rest assured that your image will be restored to a hi
 
 # LaMa vs SkinDeep 2.0
 
+<p align="center"><img src="https://github.com/vijishmadhavan/SkinDeep/blob/SkinDeep-2.0/examples/imgonline-com-ua-twotoone-j4aZso6lDSuZ.jpg"/></p>
+
+
 ## Limitation
 
 - Proper masking of the tattoo is required for accurate results.
