@@ -43,3 +43,12 @@ With SkinDeep 2.0, you can rest assured that your image will be restored to a hi
 - The free version of Colab may not support high resolution images, which can limit the quality of the final result.
 
 - If the body has no skin visibility tattoo removal would fail.
+
+## Acknowledgements
+
+https://huggingface.co/thibaud/controlnet-sd21
+
+https://github.com/lllyasviel/ControlNet
+
+https://github.com/mikonvergence/ControlNetInpaint
+
