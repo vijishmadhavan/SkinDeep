@@ -14,4 +14,4 @@ With SkinDeep 2.0, you can rest assured that your image will be restored to a hi
 # Examples
 
 
-<p align="center"><img src="https://github.com/vijishmadhavan/SkinDeep/blob/SkinDeep-2.0/examples/ezgif-2-ad0cc1dc20.gif"/></p>
+<p align="center"><img src="https://github.com/vijishmadhavan/SkinDeep/blob/SkinDeep-2.0/examples/imgonline-com-ua-twotoone-g4Fh9fq1nc9Z0V.jpg"/></p>
