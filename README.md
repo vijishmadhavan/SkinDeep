@@ -22,3 +22,14 @@ With SkinDeep 2.0, you can rest assured that your image will be restored to a hi
 <p align="center"><img src="https://github.com/vijishmadhavan/SkinDeep/blob/SkinDeep-2.0/examples/imgonline-com-ua-twotoone-rm78j58NmhXRCCQ.jpg"/></p>
 
 
+## Limitation
+
+- User has to mask the tattoo properly.
+
+- Mostly will have to remove all the tattoos from the body, for producing clean results.
+
+- Chances of messing up the face.
+
+- No auto tattoo segmentation.
+
+- No high res support in free version of colab.
