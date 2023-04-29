@@ -24,12 +24,12 @@ With SkinDeep 2.0, you can rest assured that your image will be restored to a hi
 
 ## Limitation
 
--Proper masking of the tattoo is required for accurate results.
+- Proper masking of the tattoo is required for accurate results.
 
--Removing all tattoos from the body may be necessary for clean results.
+- Removing all tattoos from the body may be necessary for clean results.
 
--There is a risk of affecting facial features while removing tattoos near the face.
+- There is a risk of affecting facial features while removing tattoos near the face.
 
--Manual selection and masking of tattoos is required, as there is no auto segmentation.
+- Manual selection and masking of tattoos is required, as there is no auto segmentation.
 
--The free version of Colab may not support high resolution images, which can limit the quality of the final result.
+- The free version of Colab may not support high resolution images, which can limit the quality of the final result.
