@@ -39,3 +39,5 @@ With SkinDeep 2.0, you can rest assured that your image will be restored to a hi
 - Manual selection and masking of tattoos is required, as there is no auto segmentation.
 
 - The free version of Colab may not support high resolution images, which can limit the quality of the final result.
+
+- If the body has no skin visibility tattoo removal would fail.
