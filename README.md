@@ -21,6 +21,7 @@ With SkinDeep 2.0, you can rest assured that your image will be restored to a hi
 
 <p align="center"><img src="https://github.com/vijishmadhavan/SkinDeep/blob/SkinDeep-2.0/examples/imgonline-com-ua-twotoone-rm78j58NmhXRCCQ.jpg"/></p>
 
+# Lama vs SkinDeep 2.0
 
 ## Limitation
 
