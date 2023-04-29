@@ -1,2 +1,2 @@
 
-<p align="center"><img src="https://github.com/vijishmadhavan/Palette/blob/master/Images/flying-peacock-fb1__700.jpeg"/></p>
+<p align="center"><img src="https://github.com/vijishmadhavan/SkinDeep/blob/SkinDeep-2.0/examples/SkinDeep%202.0.png"/></p>
