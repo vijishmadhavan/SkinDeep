@@ -94,4 +94,4 @@ with image_blocks as demo:
         with gr.Column():
             result = gr.Image(label="Result")
         btn.click(fn=predict, inputs=[input_image], outputs=result)
-demo.launch()
+demo.launch(share=True)
