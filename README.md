@@ -19,4 +19,18 @@ With SkinDeep 2.0, you can rest assured that your image will be restored to a hi
 <p align="center"><img src="https://github.com/vijishmadhavan/SkinDeep/blob/SkinDeep-2.0/examples/imgonline-com-ua-twotoone-v4nGUGWBFnfr.jpg"/></p>
 
 
+<p align="center"><img src="https://github.com/vijishmadhavan/SkinDeep/blob/SkinDeep-2.0/examples/imgonline-com-ua-twotoone-rm78j58NmhXRCCQ.jpg"/></p>
 
+# LaMa vs SkinDeep 2.0
+
+## Limitation
+
+- Proper masking of the tattoo is required for accurate results.
+
+- Removing all tattoos from the body may be necessary for clean results.
+
+- There is a risk of affecting facial features while removing tattoos near the face.
+
+- Manual selection and masking of tattoos is required, as there is no auto segmentation.
+
+- The free version of Colab may not support high resolution images, which can limit the quality of the final result.
