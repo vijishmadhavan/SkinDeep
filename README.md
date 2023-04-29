@@ -8,4 +8,10 @@ I have used ControlNetModel and StableDiffusionInpaintPipeline models, which are
 
 With SkinDeep 2.0, you can rest assured that your image will be restored to a high-quality, natural-looking state that seamlessly blends with the surrounding image content. It is the only solution you need to remove tattoos from your images, so don't hesitate – try it out today and witness the magic for yourself!
 
-<p align="center"><img src=""/></p>
+<p align="center"><img src="https://github.com/vijishmadhavan/SkinDeep/blob/SkinDeep-2.0/examples/ezgif-2-ad0cc1dc20.gif"/></p>
+
+
+# Examples
+
+
+<p align="center"><img src="https://github.com/vijishmadhavan/SkinDeep/blob/SkinDeep-2.0/examples/imgonline-com-ua-twotoone-g4Fh9fq1nc9Z0V.jpg"/></p>
