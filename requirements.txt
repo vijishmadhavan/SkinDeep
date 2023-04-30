@@ -1,4 +1,4 @@
--f https://download.pytorch.org/whl/torch_stable.html
+-f https://download.pytorch.org/whl/torch_stable.html 
 MarkupSafe==1.1.1
 Send2Trash==1.5.0 
 altair==4.1.0 
@@ -28,7 +28,6 @@ decorator==4.4.2
 defusedxml==0.6.0 
 entrypoints==0.3 
 enum-compat==0.0.3 
-fastai==1.0.61 
 fastprogress==1.0.0 
 future==0.18.2 
 idna==2.10 
@@ -94,6 +93,7 @@ thinc==7.4.1
 toml==0.10.1 
 toolz==0.10.0 
 torch==1.6.0+cpu
+fastai==1.0.61 
 torchvision===0.7.0+cpu
 tornado==6.0.4 
 tqdm==4.49.0 
